@@ -7,6 +7,7 @@ Szukasz serwera, który dba o gracza i nie jest P2WIN?
 Ten serwer jest dla Ciebie!
 
 PODSTAWOWE INFORMACJE
+----------------------------------------------------
 
 Witajcie drodzy gracze na wstępie prezentacji serwera Zacraftowani.pl
 Postaramy się wam przedstawić serwer z jak najlepszej strony, dzięki której zachęcimy was do zagrania.
@@ -20,11 +21,11 @@ Wersja gry: 1.12
 
 
 CO OFERUJEMY:
+----------------------------------------------------
 
 >> Rejestracje i logowanie - Jeśli jesteś premium, to jedyne co musisz zrobić to zarejestrować się podczas pierwszego logowania!
 
 >> Łatwy start - Po wejściu na serwer, możesz użyć komendy /kit start , aby dostać startowy ekwipunek!
-{SCREEN STARTOWEGO EKWIPUNKU}
 
 >> Survival - Graj ze znajomymi, zwiedzaj zakamarki naszego świata, staraj się przetrwać!
 
@@ -59,6 +60,69 @@ CO OFERUJEMY:
 >> System teleportacji - Możesz posiadać własne zapisane teleporty oraz używać publicznych do szybkiego podróżowania po świecie!
 
 >> Ścinanie drzew - Ułatwiliśmy i przyspieszyliśmy ścinanie drzew, od teraz nie musisz się męczyć z tym!
+
+>> 
+
+ZDJĘCIA Z SERWERA
+-------------------------------------
+
+[][][][][][][][][][][][][][][][]
+
+
+PORADNIK DO SERWERA
+---------------------------------
+>> Rejestracja i Logowanie
+    - Rejestracja na serwerze: /register <hasło> <powtórz_hasło>
+    - Logowanie na serwerze (dla no-premium): /login <hasło>
+    - Zmiana hasła: /changepassword <stare_hasło> <nowe_hasło>
+
+>> Łatwy start
+    - Odbieranie ekwipunku co 24 godziny: /kit start
+    - Żelazna zbroja ochrona I
+    - Żelazne narzędzia efektywność II
+    - Żelazny miecz ostrość I
+
+>> Działki, tworzenie działek, zarządzanie działkami
+    - 
+
+>> Drużyny
+    - Wszystkie komendy: /party
+    - Tworzenie drużyny: /party create <nazwa_drużyny>
+    - Ustawianie opisu drużyny: /party desc <opis>
+    - Ustawianie wiadomości dnia drużyny: /party motd <wiadomość>
+    - Zapraszanie do drużyny: /party invite <nazwa_gracza>
+    - Akceptacja zaproszenia: /party accept
+    - Odrzucenie zaproszenia: /party deny
+    - Zmiana rang w drużynie: /party rank <nazwa_gracza> <ranga>
+    - Ignorowanie zaproszeń od drużyny: /party ignore <nazwa_drużyny>
+    - Ustawianie działki dla drużyny: /party claim
+    - Teleport do bazy drużyny: /party home
+    - Ustawianie teleportu do bazy drużyny: /party sethome
+    - Wyrzucanie gracza z drużyny: /party kick <nazwa_gracza>
+    - Usuwanie drużyny: /party delete
+    - Zmiana nazwy drużyny: /party rename <stara_nazwa> <nowa_nazwa>
+    - Wysyłanie wiadomości do drużyny: /p <wiadomość>
+    - Opuszczanie drużyny: /party leave
+    - Informacje o drużynie: /party info <nazwa_drużyny>
+    - Informacje o członkach drużyny: /party members <nazwa_drużyny>
+    - Włączanie/wyłączanie czatu drużyny: /party chat [on/off]
+    - Lista drużyń online: /party list [strona]
+
+{https://www.spigotmc.org/resources/experience-bottle.38747/}
+>> Doświadczenie
+    - Wyciąganie doświadczenia do butelek /xpbottle <amount>
+    - Sprawdzanie ilości doświadczenia /xp
+
+>> Ranking i poziomy
+    - Profil gracza: /pvplevels profile <nazwa_gracza>
+    - Profile wszystkich graczy: /pvplevels profileall
+    - Statystyki gracza: /pvpstats <player>
+    - Ranking PvP: /pvptop
+    - Ranking poziomów: /pvptop level
+    - Ranking doświadczenia: /pvptop xp
+    - Ranking zabójstw: /pvptop kills
+    - Ranking śmierci: /pvptop deaths
+    - Ranking KDR: /pvptop kdr
 
 >> 
 

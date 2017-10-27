@@ -71,20 +71,45 @@ ZDJĘCIA Z SERWERA
 
 PORADNIK DO SERWERA
 ---------------------------------
+
+{AuthMe Reload, FastLogin}
 >> Rejestracja i Logowanie
     - Rejestracja na serwerze: /register <hasło> <powtórz_hasło>
     - Logowanie na serwerze (dla no-premium): /login <hasło>
     - Zmiana hasła: /changepassword <stare_hasło> <nowe_hasło>
 
->> Łatwy start
+{Essentials}
+>> Podstawowe komendy
     - Odbieranie ekwipunku co 24 godziny: /kit start
-    - Żelazna zbroja ochrona I
-    - Żelazne narzędzia efektywność II
-    - Żelazny miecz ostrość I
+            - Żelazna zbroja ochrona I
+            - Żelazne narzędzia efektywność II
+            - Żelazny miecz ostrość I
+    - Teleportacja na spawn: /spawn
+    - Tworzenie prywatnego teleportu: /sethome
+    - Teleportacja do prywatnego teleportu: /home
+    - Usuwanie prywatnego teleportu: /delhome
+    - Teleportacja do gracza, po jego akceptacji: /tpa <nazwa_gracza>
+    - Teleportacja gracza do siebie, po jego akceptacji: /tpahere <nazwa_gracza>
+    - Akceptacja teleportacji: /tpaccept
+    - Odrzucenie teleportacji: /tpdeny
+    - Wysyłanie prywatnych wiadomości: /msg <nazwa_gracza> <wiadomość>
+    - Sprawdzanie czasu w grze: /time
+    - Sprawdzanie ilości pieniędzy: /money
+    - Ranking pieniędzy: /balancetop
+    - Przesyłanie pieniędzy: /pay <nazwa_gracza> <ilość>
+    - Zgłaszanie cziterów, błędów: /helpop <wiadomość>
+    - Ignorowanie innych graczy: /ignore <nazwa_gracza>
+    - Lista graczy online: /list
+    - Skrzynka pocztowa: /mail
+    - Regulamin serwera: /rules
+    - Popełnienie samobójstwa: /suicide
+    - Lista publicznych teleportów: /warplist
+    - Teleportacja do publicznego teleportu: /warp <nazwa_teleportu>
 
+{GriefPrevention}
 >> Działki, tworzenie działek, zarządzanie działkami
     - 
-
+{Parties}
 >> Drużyny
     - Wszystkie komendy: /party
     - Tworzenie drużyny: /party create <nazwa_drużyny>
@@ -108,11 +133,12 @@ PORADNIK DO SERWERA
     - Włączanie/wyłączanie czatu drużyny: /party chat [on/off]
     - Lista drużyń online: /party list [strona]
 
-{https://www.spigotmc.org/resources/experience-bottle.38747/}
+{Experience Bottle}
 >> Doświadczenie
     - Wyciąganie doświadczenia do butelek /xpbottle <amount>
     - Sprawdzanie ilości doświadczenia /xp
 
+{PvPLevels}
 >> Ranking i poziomy
     - Profil gracza: /pvplevels profile <nazwa_gracza>
     - Profile wszystkich graczy: /pvplevels profileall
@@ -124,5 +150,53 @@ PORADNIK DO SERWERA
     - Ranking śmierci: /pvptop deaths
     - Ranking KDR: /pvptop kdr
 
->> 
+{CrazyAuctions}
+>> Aukcje
+    - Wyświetlanie aukcji: /ah
+    - Wystawianie przedmiotów na sprzedaż: /ah sell <cena> <ilość>
+    - Wystawianie ofert: /ah bid <cena> <ilość>
+    - Statusy wystawionych aukcji: /ah expired
+    - Odbieranie pieniędzy za aukcje: /ah collect
+    - Wyświetlenie wystawionych aukcji: /ah listed
+
+{Essentials}
+>> Sklepy
+    -
+{SafeTrade}    
+>> Handel
+    - Zaproszenie do handlu: /trade <nazwa_gracza>
+    - Akceptacja zaproszenia do handlu: /trade accept
+    - Odrzucenie zaproszenia do handlu: /trade deny
+
+{ZHorse}
+>> Konie
+
+
+
+{SkinRestorer}
+>> Skiny
+    - Ustawianie skina: /skin <nazwa_gracza>
+    
+{SpawnerShop}
+>> SpawnerShop
+    - Otwiera menu ze spawnerami: /spawners
+    
+VIP
+---------------------------------
+
+Informacje o VIP /vip
+    - Zakładanie przedmiotów i bloków na głowę: /hat
+    - Zmiana prywatnego czasu na serwerze: /ptime
+    - Zmiana prywatnej pogody na serwerze: /pweather
+    - Zdalny dostęp do stół rzemielśniczy pod komendą: /workbench
+    - Zdalny dostęp do skrzyni kresu: /enderchest
+    - Brak wyrzucenia podczas statusu AFK
+    - Możliwość pisania na kolorowo na: czacie, prywatnych wiadomościach, tabliczkach
+    - Możliwość zmiany swojej nazwy, koloru, formatu
+    - Możliwość powrotu do poprzedniej lokalizacji teleportacji: /back
+    - Możliwość powrotu do miejsca śmierci: /back
+    - Większa ilość prywatnych teleportacji (10): /sethome
+    - Rezerwacja slota
+
+    
 

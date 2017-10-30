@@ -1,0 +1,35 @@
+>> AuthMe Reloaded 
+        - zmienić wiadomości w messages.yml przy rejestracji, logowaniu, zmianie hasła na:
+        - Rejestracja - "Zarejestruj sie przy pomocy: /rejestruj <haslo> <potworz_haslo>"
+        - Logowanie - "Zaloguj sie przy pomocy: /loguj <haslo>"
+        - Zmiana hasła = "Zmien haslo przy pomocy: /zmienhaslo <stare_haslo> <nowe_haslo>"
+        - Dodać aliasy do komend: register - rejestruj, loguj - login, zmienhaslo - changepassword
+>> FastLogin 
+        - zmienić wiadomości w messages.yml przy autologowaniu:
+        - "Automatycznie zalogowany!"
+>> EssentialsX
+        - Zmienić język na: locale: pl
+        - Dodać: /kit start (co 24h / 86 400sec), a w nim:
+        kits:
+          tools:
+            delay: 86400
+            items:
+              - 267 1 sharpness:1 name:&6&lStartowy_miecz lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+              - 257 1 efficiency:2 name:&6&lStartowy_kilof lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+              - 258 1 efficiency:2 name:&6&lStartowa_siekiera lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+              - 256 1 efficiency:2 name:&6&lStartowa_lopata lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+              - 260 1 protection:1 name:&6&lStartowe_jablko lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+              - 306 1 protection:1 name:&6&lStartowy_helm lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+              - 307 1 protection:1 name:&6&lStartowy_napiersnik lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+              - 308 1 protection:1 name:&6&lStartowe_spodnie lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+              - 309 1 protection:1 name:&6&lStartowe_buty lore:&eEkwipunek_startowy|&eMozesz_go_brac_co_24_godziny
+        - Zmienić format czatu na:
+        group-formats:
+          default: '&7{DISPLAYNAME}&f:&r {MESSAGE}'
+          vip: '&6[VIP] &e{DISPLAYNAME}&f:&r {MESSAGE}'
+          helper: '&3[Helper] &b{DISPLAYNAME}&f:&r {MESSAGE}'
+          moderator: '&2[Moderator] &a{DISPLAYNAME}&f:&r {MESSAGE}'
+          administrator: '&4[Administrator] &c{DISPLAYNAME}&f:&r {MESSAGE}'
+        - Dodać aliasy do komend: kit - zestaw, time - czas, money - kasa, helpop - report, ignore - ignoruj, list - lista, rules - regulamin, 
+>> 
+        

@@ -33,6 +33,8 @@ CO OFERUJEMY:
 
 >> PvP - Jeśli nie podoba Ci się walka z innymi graczami, możesz wyłączyć PvP komendą /pvp
 
+>> Pojedynki - Jeśli chcesz powalczyć z kimś na arenie, wystarczy, że go wyzwierz, więcej informacji jak to zrobić znajdziesz poniżej!
+
 >> Drużyny - Jeśli grasz z przyjaciółmi, możecie założyć własną drużynę, drużyny są maksymalnie na pięć osób, więcej informacji jak to zrobić znajdziesz poniżej!
 
 >> Doświadczenie - Jeśli zginiesz, nie przejmuj się, nie stracisz doświadczenia do czarowania przedmiotów! Możesz także wydobywać doświadczenie do butelek i później nimi handlować!
@@ -149,6 +151,13 @@ PORADNIK DO SERWERA
     - Ranking zabójstw: /pvptop kills
     - Ranking śmierci: /pvptop deaths
     - Ranking KDR: /pvptop kdr
+
+{Duels}
+>> Pojedynki
+    - Wyzwanie na pojedynek: /duel <nazwa_gracza>
+    - Akceptacja pojedynku: /duel accept [player]
+    - Odrzucenie pojedynku: /duel deny [player]
+    - Statystyki pojedynków: /duel stats
 
 {CrazyAuctions}
 >> Aukcje
